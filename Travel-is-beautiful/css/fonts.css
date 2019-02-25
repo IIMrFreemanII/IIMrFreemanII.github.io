@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'PT-Serif';
+    src: url('../fonts/PT_Serif/subset-PTSerif-Regular.eot');
+    src: url('../fonts/PT_Serif/subset-PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PT_Serif/subset-PTSerif-Regular.woff2') format('woff2'),
+        url('../fonts/PT_Serif/subset-PTSerif-Regular.woff') format('woff'),
+        url('../fonts/PT_Serif/subset-PTSerif-Regular.ttf') format('truetype'),
+        url('../fonts/PT_Serif/subset-PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'COUTURE';
+    src: url('../fonts/COUTURE/subset-COUTURE-Bold.eot');
+    src: url('../fonts/COUTURE/subset-COUTURE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/COUTURE/subset-COUTURE-Bold.woff2') format('woff2'),
+        url('../fonts/COUTURE/subset-COUTURE-Bold.woff') format('woff'),
+        url('../fonts/COUTURE/subset-COUTURE-Bold.ttf') format('truetype'),
+        url('../fonts/COUTURE/subset-COUTURE-Bold.svg#COUTURE-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/subset-Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat/subset-Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/subset-Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat/subset-Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat/subset-Montserrat-Bold.ttf') format('truetype'),
+        url('../fonts/Montserrat/subset-Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/subset-Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat/subset-Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/subset-Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat/subset-Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat/subset-Montserrat-Regular.ttf') format('truetype'),
+        url('../fonts/Montserrat/subset-Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

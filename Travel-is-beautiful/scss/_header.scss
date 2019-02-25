@@ -1,0 +1,189 @@
+/* Header */
+
+.header-background-image {
+    background: url('../images/bg-image-1.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.header-bg-color {
+    background-color: rgba(227, 213, 184, 0.73);
+    height: 99%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 135px;
+    height: 63px;
+    background: url('../images/Logo-min.png') no-repeat center;
+    margin-top: 35px;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.menu-item__link {
+    display: inline-block;
+    padding: 11px 15px;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    @include font ('Montserrat', 18px, bold, $color-black-1b)
+}
+
+.menu-item:last-child .menu-item__link {
+    margin-right: 0;
+}
+
+.menu-item:hover .menu-item__link {
+    background-color: $color-pink;
+    color: $color-white;
+    transition: 0.3s;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.header-bottom-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-article-caption {
+    @include font ('Montserrat', 90px, bold, $color-black-16);
+    line-height: 80px;
+    letter-spacing: -1.8px;
+    width: 525px;
+    margin-top: 84px;
+    margin-bottom: 35px;
+}
+
+.header-article-caption span {
+    color: $color-pink;
+}
+
+.header-article-text {
+    width: 466px;
+    @include font ('PT-Serif', 20px, 400, $color-black-16);
+    letter-spacing: -0.4px;
+    margin: 0;
+    line-height: 28px;
+}
+
+.header-bottom-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 520px;
+    align-items: center;
+    background-color: $color-pink;
+    border-radius: 5px;
+    position: relative;
+    top: 80px;
+}
+
+.form-caption {
+    @include font ('Montserrat', 22px, 400, $color-white);
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    margin-top: 29px;
+    margin-bottom: 33px;
+}
+
+.name, .email, .phone-number, .country, .submit {
+    width: 353px;
+    height: 57px;
+    border-radius: 6px;
+    border: none;
+}
+
+.name, .email, .phone-number, .country {
+    padding: 0;
+    padding-left: 19px;
+    box-sizing: border-box;
+}
+
+.name, .email, .phone-number, .country, .checkbox-label {
+    font-family: "PT-Serif", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.checkbox-label {
+    color: $color-white;
+}
+
+.checkbox-label:hover {
+    cursor: pointer;
+}
+
+.name, .email, .phone-number {
+    margin-bottom: 17px;
+}
+
+.checkbox {
+    margin: 0;
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.checkbox-container {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    position: relative;
+    margin-left: -25px;
+}
+
+.checkbox-fake {
+    margin-right: 23px;
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    background-color: $color-white;
+    background-image: url('../images/checked-min.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 22px 2px;
+}
+
+.checkbox:checked + .checkbox-fake {
+    background-position: 0 2px;
+}
+
+.submit {
+    @include font ('Montserrat', 22px, 400, $color-white);
+    text-transform: uppercase;
+    background-color: $color-black-16;
+    padding: 0;
+}
+
+.submit:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+/* our-servisec */
+
+.our-service_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-service-caption {
+    margin-top: 27px;
+    margin-bottom: 97px;
+    @include font ('Couture', 50px, bold, $color-black-16);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.our-service-caption span {
+    color: $color-pink;
+}
+
+.our-service-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+    align-items: flex-end;
+}
+
+.our-service-item__text {
+    width: 175px;
+    @include font ('PT-Serif', 20px, normal, $color-black-16);
+    letter-spacing: -0.4px;
+    margin-top: 45px;
+}
+
+.our-service-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-service-image1 {
+    background-image: url('../images/our-service-images-sprite-min.png');
+    background-repeat: no-repeat;
+    width: 163px;
+    height: 142px;
+    background-position: -5px -5px;
+}
+
+.our-service-image2 {
+    background-image: url('../images/our-service-images-sprite-min.png');
+    background-repeat: no-repeat;
+    width: 137px;
+    height: 137px;
+    background-position: -178px -5px;
+}
+
+.our-service-image3 {
+    background-image: url('../images/our-service-images-sprite-min.png');
+    background-repeat: no-repeat;
+    width: 116px;
+    height: 155px;
+    background-position: -325px -5px;
+}
+
+.our-service-image4 {
+    background-image: url('../images/our-service-images-sprite-min.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-position: -451px -5px;
+}

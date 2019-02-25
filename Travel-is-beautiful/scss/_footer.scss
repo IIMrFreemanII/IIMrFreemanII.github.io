@@ -1,0 +1,30 @@
+/* footer */
+
+.footer-bg {
+    background-color: #161616;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    @include font ('PT-Serif', 20px, 400, #ffffff);
+    padding-top: 80px;
+    padding-bottom: 84px;
+    margin: 0;
+}
+
+.copyright span {
+    color: #d03958;
+}
+
+.footer-logo {
+    padding-top: 73px;
+    padding-bottom: 64px;
+    width: 98px;
+    height: 46px;
+    background-size: contain;
+    margin-top: 0;
+}

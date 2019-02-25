@@ -1,0 +1,96 @@
+/* pricing */
+
+.pricing {
+    background-color: $color-light-brown;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-caption {
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 48px;
+    @include font ('Montserrat', 50px, bold, $color-black-1f);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.pricing-card {
+    width: 318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.card-name {
+    @include font ('PT-Serif', 22px, 400, $color-black-16);
+    letter-spacing: -0.44px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.card-price {
+    @include font ('Montserrat', 60px, bold, $color-pink);
+    text-transform: uppercase;
+    letter-spacing: -1.2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cart-text {
+    @include font ('PT-Serif', 20px, 400, $color-black-16);
+    letter-spacing: -0.4px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.card-button {
+    background-color: #e3d5b8;
+    width: 205px;
+    height: 49px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    @include font ('Montserrat', 22px, bold, #161616);
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.card-button:hover {
+    background-color: #d03958;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.popular {
+    width: 0;
+	height: 0;
+	border-top: 80px solid #b4a993; 
+    border-right: 80px solid transparent;
+    position: absolute;
+    left: 0;
+}
+
+.popular::before {
+    content: 'Popular';
+    display: block;
+    position: absolute;
+    @include font ('PT-Serif', 15px, 400, #1f1f1f);
+    transform: rotate(-45deg);
+    top: -60px;
+    left: 2px;
+}
