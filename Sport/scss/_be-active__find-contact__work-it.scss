@@ -1,0 +1,160 @@
+/* be-active find-contact work-it */
+
+.be-active,
+.find-contact,
+.work-it {
+    display: flex;
+}
+
+.find-contact {
+    flex-direction: row-reverse;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.be-active-img {
+    background-image: url('../images/be-active.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.find-contact-img {
+    background-image: url('../images/find-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.work-it-img {
+    background-image: url('../images/work-it.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.be-active-container {
+    width: 50%;
+}
+
+.be-active-container {
+    padding-top: 255px;
+    padding-bottom: 110px;
+    padding-left: 125px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.find-contact-container {
+    padding-top: 255px;
+    padding-bottom: 155px;
+    padding-right: 125px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.work-it-container {
+    padding-top: 255px;
+    padding-bottom: 120px;
+    padding-left: 125px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.be-active-caption,
+.find-contact-caption,
+.work-it-caption {
+    color: #e6e6e6;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: "Proxima Nova B", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+.be-active-text,
+.find-contact-text,
+.work-it-text {
+    color: #000000;
+    font-size: 24px;
+    font-family: "Proxima Nova Rg", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.be-active-text {
+    max-width: 295px;
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.find-contact-text {
+    max-width: 360px;
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+
+.work-it-text {
+    max-width: 470px;
+    margin-top: 105px;
+    margin-bottom: 85px;
+}
+
+.be-active-button,
+.find-contact-button,
+.work-it-button {
+    width: 22px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.be-active-number-container,
+.find-contact-number-container,
+.work-it-number-container {
+    width: 168px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e42b0;
+    position: absolute;
+}
+
+.be-active-number-container {
+    top: 211px;
+    left: -84px;
+}
+
+.find-contact-number-container {
+    top: 211px;
+    right: -84px;
+}
+
+.work-it-number-container {
+    top: 211px;
+    left: -84px;
+}
+
+.be-active-number__number,
+.find-contact-number__number,
+.work-it-number__number {
+    color: #f5f6f7;
+    font-size: 24px;
+    font-family: "Proxima Nova B", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.be-active-number__underline,
+.find-contact-number__underline,
+.work-it-number__underline {
+    width: 22px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #8e7bc8;
+}
+
